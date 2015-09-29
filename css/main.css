@@ -7,6 +7,14 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    font-family: "Work Sans",sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+
 p {
     font-family: "Work Sans",sans-serif;
     line-height: 1.42857143
@@ -38,6 +46,7 @@ p {
 
 .dry_alt {
     border-top: 5px solid #ff3300;
+    margin-bottom: 150px;
 }
 
 .dry p {
@@ -52,3 +61,15 @@ p {
     width: 768px;
     margin: 0 auto;
 }
+
+.footer {
+    width: auto;
+    height: 249px;
+    padding: 50px 15px;
+    background-color: #173754
+}
+
+.footer_alt {
+    text-align: center;
+}
+
