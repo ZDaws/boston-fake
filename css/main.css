@@ -73,3 +73,20 @@ p {
     text-align: center;
 }
 
+.footer_nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer_nav li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer_nav a {
+    font-family: "Work Sans",sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
