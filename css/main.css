@@ -20,6 +20,10 @@ p {
     line-height: 1.42857143
 }
 
+a {
+    font-family: "Work Sans",sans-serif;
+}
+
 body {
     background-color: #173754
 }
@@ -37,9 +41,14 @@ body {
 }
 
 .hero {
+    text-align: center;
+    color: white;
     height: 422px;
     background: no-repeat top center url('../img/Simmons4B_1.jpg') rgba(0, 0, 0, 0.55);
     background-size: 100%;
+}
+.hero h2 {
+    color: white;
 }
 
 .dry {
@@ -64,6 +73,55 @@ body {
 .wrapper-mid {
     width: 768px;
     margin: 0 auto;
+}
+
+.arrow {
+    font-size: 20px;
+    text-decoration: none;
+    color: #0F559A;
+}
+.arrow_alt {
+    text-decoration: none;
+    color: #ff3300;
+}
+
+.arrow_alt a:hover{
+    
+}
+
+.marketing_titles{
+    font-family: "Work Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #959A9E;
+}
+
+.marketing_titles ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.marketing_titles li{
+    display: inline-block;
+    padding: 15px 55px;
+}
+
+.marketing_titles a{
+    display: inline-block;
+    color: #959A9E;
+    text-decoration: none;
+
+}
+
+.marketing_titles a span{
+    font-size: 70px;
+
+}
+
+.marketing_titles  li :hover{
+    color: #FF3300;
 }
 
 .footer {
@@ -115,8 +173,6 @@ body {
 .social a:hover{
     color: #87ca1d;
 }
-
-
 
 
 
