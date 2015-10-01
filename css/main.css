@@ -78,15 +78,28 @@ body {
 .arrow {
     font-size: 20px;
     text-decoration: none;
+    position: relative;
     color: #0F559A;
 }
-.arrow_alt {
+.arrow_icon {
+    font-size: 15px;
     text-decoration: none;
     color: #ff3300;
+    top: 5px;
+    width: 40px;
+    right: -33px;
+    position: absolute;
+    transition: all .3s;
+    -webkit-transition: all .3s;
 }
 
-.arrow_alt a:hover{
-    
+.arrow:hover .arrow_icon{
+    right: -38px;
+}
+
+.service-text {
+    font-weight: 200;
+    font-color: #333;
 }
 
 .marketing_titles{
