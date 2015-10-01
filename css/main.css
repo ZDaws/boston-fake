@@ -20,6 +20,14 @@ p {
     line-height: 1.42857143
 }
 
+a {
+    font-family: "Work Sans",sans-serif;
+}
+
+body {
+    background-color: #173754
+}
+
 .container {
 }
 
@@ -33,9 +41,14 @@ p {
 }
 
 .hero {
+    text-align: center;
+    color: white;
     height: 422px;
     background: no-repeat top center url('../img/Simmons4B_1.jpg') rgba(0, 0, 0, 0.55);
     background-size: 100%;
+}
+.hero h2 {
+    color: white;
 }
 
 .dry {
@@ -46,7 +59,7 @@ p {
 
 .dry_alt {
     border-top: 5px solid #ff3300;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 
 .dry p {
@@ -62,17 +75,102 @@ p {
     margin: 0 auto;
 }
 
+.arrow {
+    font-size: 20px;
+    text-decoration: none;
+    color: #0F559A;
+}
+.arrow_alt {
+    text-decoration: none;
+    color: #ff3300;
+}
+
+.arrow_alt a:hover{
+    
+}
+
+.marketing_titles{
+    font-family: "Work Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #959A9E;
+}
+
+.marketing_titles ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.marketing_titles li{
+    display: inline-block;
+    padding: 15px 55px;
+}
+
+.marketing_titles a{
+    display: inline-block;
+    color: #959A9E;
+    text-decoration: none;
+
+}
+
+.marketing_titles a span{
+    font-size: 70px;
+
+}
+
+.marketing_titles  li :hover{
+    color: #FF3300;
+}
+
 .footer {
     width: auto;
-    height: 249px;
     padding: 50px 15px;
     background-color: #173754
 }
 
-.footer_alt {
+.footer_nav ul {
+    list-style: none;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
+.footer_nav li {
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.footer_nav a {
+    font-family: "Work Sans",sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.footer_nav a:hover {
+    color: #87ca1d;
+}
+
+.footer p {
+    padding: 15px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.social a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 22px;
+}
+
+<<<<<<< HEAD
 .footer_nav ul {
     list-style-type: none;
     text-align: center;
@@ -90,3 +188,14 @@ p {
     color: #fff;
     text-decoration: none;
 }
+=======
+.social a:hover{
+    color: #87ca1d;
+}
+
+
+
+
+
+
+>>>>>>> 6e86e55218ff5cc569f2777ea8f6819c96deda4d
